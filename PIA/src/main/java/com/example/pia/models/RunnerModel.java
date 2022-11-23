@@ -10,6 +10,7 @@ public class RunnerModel {
     private int position;
 
     private String nombre;
+    private String nacionalidad;
     private int points;
     private int wins;
     private int podiums;
@@ -28,6 +29,14 @@ public class RunnerModel {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+    
+    public String getNacionalidad() {
+        return nacionalidad;
+    }
+
+    public void setNacionalidad(String nacionalidad) {
+        this.nacionalidad = nacionalidad;
     }
 
     public int getPoints() {
