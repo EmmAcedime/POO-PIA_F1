@@ -23,7 +23,7 @@ public class TeamsController {
     }
 
     @GetMapping(path = "/{Position}")
-    public Optional<TeamsModel> obtenerTeamsPorPosition(@PathVariable("position") int position){
+    public ArrayList<TeamsModel> obtenerTeamsPorPosition(@PathVariable("position") int position){
         return this.teamsService.obtenerPorPosicion(position);
     }
     //@GetMapping("/query")

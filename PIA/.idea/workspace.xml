@@ -49,7 +49,8 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "spring.configuration.checksum": "25e7716e9d5329a2008e6558cb95d338"
   }
 }]]></component>
   <component name="RunManager">
@@ -70,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669182753927</updated>
       <workItem from="1669182756176" duration="8607000" />
+      <workItem from="1669223177030" duration="306000" />
     </task>
     <servers />
   </component>

@@ -19,7 +19,7 @@ public class TeamsService {
         return teamsRepository.save(teams);
     }
 
-    public Optional<TeamsModel> obtenerPorPosicion(int position) {
+    public ArrayList<TeamsModel> obtenerPorPosicion(int position) {
         return teamsRepository.findByPosition(position);
     }
     public boolean eliminarTeam(int position) {
