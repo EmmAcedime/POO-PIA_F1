@@ -11,6 +11,7 @@ import com.example.pia.models.RunnerModel;
 
 @Repository
 public interface RunnerRepository extends CrudRepository<RunnerModel, Long> {
-    public abstract ArrayList<RunnerModel> findByPosition(int position);
+    public abstract ArrayList<RunnerModel>findByPosition(int position);
 
+    void deleteByPosition(int position);
 }
